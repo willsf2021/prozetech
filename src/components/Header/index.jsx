@@ -19,6 +19,20 @@ export const Header = () => {
           <img src={menu} alt="" />
         </div>
       </nav>
+      <div className="hero">
+        <aside>
+          <h1>Soluções completas para Notebooks, Desktops, Periféricos e PCs Gamers.</h1>
+          <p>
+            <strong> Assistência Técnica </strong>e montagem de
+            <strong> PCs Gamers </strong>sob medida.
+          </p>
+          <button>
+            <span>
+              Entre em c
+            </span>ontato
+          </button>
+        </aside>        
+      </div>
     </Container>
   );
 };
