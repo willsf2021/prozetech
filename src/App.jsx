@@ -7,7 +7,7 @@ import { Header } from "./components/Header";
 import { Services } from "./components/Services";
 import { Intro } from "./components/Intro";
 import { Footer } from "./components/Footer";
-
+import { WhatsappButton } from "./components/WhatsappButton";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -20,6 +20,7 @@ function App() {
       <Services />
       <Hr />
       <Footer />
+      <WhatsappButton />
     </ThemeProvider>
   );
 }
