@@ -9,7 +9,6 @@ div.containerul {
     height: 200px;
     width: 1000px;
     column-gap: 242px;
-
     ul {
         list-style: none;
         color: black;
