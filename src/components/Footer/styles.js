@@ -7,7 +7,6 @@ border-top: 2px solid ${({ theme }) => theme.colors.footerBorderColor};
 div.containerul {
     display: flex;
     column-gap: 242px;
-
     ul {
         list-style: none;
         color: black;
