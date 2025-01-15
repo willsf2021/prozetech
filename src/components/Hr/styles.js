@@ -6,8 +6,8 @@ export default styled.div`
   width: 100%;
   background: linear-gradient(
     to right,
-    ${({ theme }) => theme.colors.veryDarkBlue},
+    ${(props) => props.footer? props.theme.colors.footerColor: props.theme.colors.veryDarkBlue},
     ${({ theme }) => theme.colors.snowOpacity},
-    ${({ theme }) => theme.colors.veryDarkBlue}
+    ${(props) => props.footer? props.theme.colors.footerColor: props.theme.colors.veryDarkBlue}
   );
 `;
