@@ -2,12 +2,12 @@ import styled from "styled-components";
 import bgDesktop from "../../assets/bgHeroDesktop.png";
 
 export default styled.header`
-  height: 687px;
+  height: 100vh;
   background: url(${bgDesktop});
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding: 0px 80px;
+  padding: 0px 160px;
   nav {
     display: flex;
     align-items: center;
@@ -16,7 +16,7 @@ export default styled.header`
     min-height: 120px;
   }
   nav img:first-child {
-    width: 156px;
+    width: 208px;
   }
   nav ul {
     display: flex;
@@ -24,36 +24,32 @@ export default styled.header`
     align-items: center;
     justify-content: flex-start;
     column-gap: 54px;
-    font-family: "Poppins", sans-serif;
+    li a {
+      font: ${({ theme }) => theme.fontPattern.listItem};
+    }
 
     li a:hover {
       color: ${({ theme }) => theme.colors.lightBlue};
     }
   }
+
   div.mobileMenu img {
     width: 24px;
   }
   div.hero {
-    h1 {
-      font-size: ${({ theme }) => theme.fontSize.lg};
-      font-weight: 500;
-    }
-    p {
-      font-size: ${({ theme }) => theme.fontSize.sm};
-      font-family: "Poppins", sans-serif;
-    }
-    button {
-      font-size: ${({ theme }) => theme.fontSize.sm};
-    }
     button span {
       border-bottom: 1px solid ${({ theme }) => theme.colors.snow};
     }
     aside {
-      max-width: 500px;
+      margin-top: 54px;
+      max-width: 700px;
       display: flex;
       flex-direction: column;
-      row-gap: 16px;
+      row-gap: 32px;
       align-items: flex-start;
+      h3 {
+        font-weight: ${({ theme }) => theme.fontWeight.regular};
+      }
     }
   }
 `;

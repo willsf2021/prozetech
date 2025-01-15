@@ -10,14 +10,15 @@ const GlobalStyles = createGlobalStyle`
     body {
         color: ${({ theme }) => theme.colors.snow};
         background-color: ${({ theme }) => theme.colors.veryDarkBlue};
-        max-width: 1440px;
+        /* max-width: 1440px; */
+        margin: auto;
         
     }
 
     div#root {
         display: flex;
         flex-direction: column;
-        row-gap: 48px;
+        row-gap: 96px;
     }
     /* h2 {
         font: 600
@@ -30,21 +31,32 @@ const GlobalStyles = createGlobalStyle`
     transition: color 0.3s ease;
   }
 
-  h1, h2, h3 {
-    font-family: "Poppins", sans-serif;
+  h1 {
+    font: ${({ theme }) => theme.fontPattern.titleH1} 
+  }
+  h2 {
+    font: ${({ theme }) => theme.fontPattern.titleH2} 
+  }
+  h3 {
+    font: ${({ theme }) => theme.fontPattern.titleH3} 
+  }
+  p {
+    font: ${({ theme }) => theme.fontPattern.paragraph};
+    line-height: 1.8rem;
   }
 
-  p {
-    font: 400 ${({ theme }) => theme.fontSize.sm} "Lato", sans-serif;
+  button {
+        font-family: ${({ theme }) => theme.fontFamily.poppins};
+        font-size: ${({ theme }) => theme.fontSize.sm};
+      }
+  ul {
+        list-style: none;
+        
   }
-    ul {
-        list-style: none 
-    }
     button {
         background-color: transparent;
         color: ${({ theme }) => theme.colors.snow};
         border: none;
-        font-family: "Poppins", sans-serif;
         cursor: pointer;
     }
 `;

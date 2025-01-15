@@ -33,12 +33,15 @@ export const Header = () => {
             Soluções completas para Notebooks, Desktops, Periféricos e PCs
             Gamers.
           </h1>
-          <p>
+          <h3>
             <strong> Assistência Técnica </strong>e montagem de
             <strong> PCs Gamers </strong>sob medida.
-          </p>
+          </h3>
           <button>
-            <span>Entre <span>em</span> c</span>ontato
+            <span>
+              Entre <span>em</span> c
+            </span>
+            ontato
           </button>
         </aside>
       </div>
