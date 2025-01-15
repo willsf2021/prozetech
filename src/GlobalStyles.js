@@ -41,12 +41,18 @@ const GlobalStyles = createGlobalStyle`
     font: ${({ theme }) => theme.fontPattern.titleH3} 
   }
   p {
-    font: ${({ theme }) => theme.fontPattern.paragraph}
+    font: ${({ theme }) => theme.fontPattern.paragraph};
+    line-height: 1.8rem;
   }
-    ul {
+
+  button {
+        font-family: ${({ theme }) => theme.fontFamily.poppins};
+        font-size: ${({ theme }) => theme.fontSize.sm};
+      }
+  ul {
         list-style: none;
         
-    }
+  }
     button {
         background-color: transparent;
         color: ${({ theme }) => theme.colors.snow};

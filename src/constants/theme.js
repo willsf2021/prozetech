@@ -14,8 +14,9 @@ export const theme = {
   fontPattern: {
     titleH1: `500 48px "Poppins", sans-serif`,
     titleH2: `500 40px "Poppins", sans-serif`,
-    titleH3: `500 32px "Poppins", sans-serif`,
-    paragraph: `400 24px "Lato", sans-serif`,
+    titleH3: `500 24px "Poppins", sans-serif`,
+    listItem: `500 20px "Poppins", sans-serif`,
+    paragraph: `400 20px "Lato", sans-serif`,
   },
 
   fontWeight: {
@@ -24,6 +25,8 @@ export const theme = {
     bold: 600,
   },
   fontSize: {
+    xxs: "16px",
+    sm: "20px",
     xs: "24px",
     md: "32px",
     lg: "40px",

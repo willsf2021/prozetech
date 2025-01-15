@@ -24,7 +24,10 @@ export default styled.header`
     align-items: center;
     justify-content: flex-start;
     column-gap: 54px;
-    
+    li a {
+      font: ${({ theme }) => theme.fontPattern.listItem};
+    }
+
     li a:hover {
       color: ${({ theme }) => theme.colors.lightBlue};
     }
@@ -38,17 +41,14 @@ export default styled.header`
       border-bottom: 1px solid ${({ theme }) => theme.colors.snow};
     }
     aside {
-      margin-top: 32px;
-      /* max-width: 600px; */
+      margin-top: 54px;
+      max-width: 700px;
       display: flex;
       flex-direction: column;
       row-gap: 32px;
       align-items: flex-start;
-      h1 {
-        max-width: 700px;
-      }
-      p {
-        font-family: ${({ theme }) => theme.fontFamily.poppins} 
+      h3 {
+        font-weight: ${({ theme }) => theme.fontWeight.regular};
       }
     }
   }

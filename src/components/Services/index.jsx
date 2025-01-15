@@ -12,7 +12,7 @@ export const Services = () => {
           <h2>Nossos Serviços</h2>
         </div>
         <div className="mock">
-          <Mock
+        <Mock
             image={technicalAssistance}
             title="Assistência Técnica"
             text="Limpeza interna e externa, diagnóstico e análise de falhas em hardware e software, formatação, backup e instalação de periféricos."
