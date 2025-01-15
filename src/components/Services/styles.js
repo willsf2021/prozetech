@@ -12,6 +12,7 @@ export default styled.section`
     div.mock {
       display: flex;
       width: 100%;
+      align-items: flex-start;
       justify-content: space-between;
     }
   }
