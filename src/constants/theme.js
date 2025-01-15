@@ -5,6 +5,8 @@ export const theme = {
     lightBlue: "#65BAD0",
     snow: "#FFF5F4",
     snowOpacity: "rgba(255, 245, 244, 0.5)",
+    footerColor: "#16242d",
+    footerBorderColor: "#1171AA"
   },
   fontFamily: {
     poppins: "'Poppins', sans-serif",
