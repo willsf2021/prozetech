@@ -3,10 +3,10 @@ import styled from "styled-components";
 export default styled.div`
   display: flex;
   flex-direction: column;
-  row-gap: 8px;
+  row-gap: 16px;
   /* background-color: blue; */
   img {
-    width: 64px;
+    max-width: 128px;
   }
 
   p {
@@ -14,7 +14,11 @@ export default styled.div`
     
   }
 
+  h3 {
+    font-size: ${({ theme }) => theme.fontSize.sm};
+    min-width: 300px;
+  }
   h3, p {
-    max-width: 278px;
+    max-width: 500px;
   }
 `;

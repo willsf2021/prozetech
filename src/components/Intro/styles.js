@@ -3,8 +3,8 @@ import styled from "styled-components";
 export default styled.section`
   display: flex;
   flex-direction: column;
-  padding: 0px 80px;
-  row-gap: 24px;
+  padding: 0px 160px;
+  row-gap: 48px;
   div.container {
     display: flex;
     align-items: flex-start;
@@ -12,7 +12,7 @@ export default styled.section`
     column-gap: 128px;
     div.image {
       flex: 1;
-      max-width: 320px;
+      max-width: 440px;
       img {
         width: 100%;
       }
@@ -22,7 +22,7 @@ export default styled.section`
       flex: 1;
       display: flex;
       flex-direction: column;
-      row-gap: 24px;
+      row-gap: 40px;
       justify-content: center;
       /* max-width: 400px; */
     }
