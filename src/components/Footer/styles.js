@@ -17,4 +17,4 @@ div.containerul {
         color: ${({ theme }) => theme.colors.snow};
     }
 }
-` 
+`
