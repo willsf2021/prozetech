@@ -19,6 +19,7 @@ export const theme = {
     titleH3: `500 24px "Poppins", sans-serif`,
     listItem: `500 20px "Poppins", sans-serif`,
     paragraph: `400 20px "Lato", sans-serif`,
+    paragraphFooter: `400 16px "Lato", sans-serif`,
   },
 
   fontWeight: {

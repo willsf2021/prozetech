@@ -1,7 +1,7 @@
 import Container from "./styles";
 
-export const Hr = () => {
-  return <Container>
+export const Hr = ({footer}) => {
+  return <Container footer={footer}> 
     
   </Container>;
 };
