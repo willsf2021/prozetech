@@ -6,8 +6,6 @@ export default styled.header`
   background: url(${bgDesktop});
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  padding: 0px 80px;
 
   nav {
     display: flex;
