@@ -6,7 +6,8 @@ export const theme = {
     snow: "#FFF5F4",
     snowOpacity: "rgba(255, 245, 244, 0.5)",
     footerColor: "#16242d",
-    footerBorderColor: "#1171AA"
+    footerBorderColor: "#1171AA",
+    darkRed: "#FF2A53",
   },
   fontFamily: {
     poppins: "'Poppins', sans-serif",

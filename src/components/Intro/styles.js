@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
 export default styled.section`
-  display: flex;
-  flex-direction: column;
-  padding: 0px 160px;
-  row-gap: 48px;
+  div.wrap {
+    display: flex;
+    flex-direction: column;
+    row-gap: 48px;
+  }
   div.container {
     display: flex;
     align-items: flex-start;
@@ -24,6 +25,9 @@ export default styled.section`
       flex-direction: column;
       row-gap: 40px;
       justify-content: center;
+      p {
+        line-height: 2rem;
+      }
       /* max-width: 400px; */
     }
     button {

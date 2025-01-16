@@ -1,13 +1,15 @@
 import styled from "styled-components";
 
 export default styled.footer`
-  height: 345px;
   background-color: ${({ theme }) => theme.colors.footerColor};
   border-top: 2px solid ${({ theme }) => theme.colors.footerBorderColor};
-  display: flex;
-  flex-direction: column;
-  padding: 0px 160px;
-  font: ${({ theme }) => theme.fontPattern.paragraphFooter};
+  div.wrap {
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 80px;
+    font: ${({ theme }) => theme.fontPattern.paragraphFooter};
+  }
 
   div.containerul {
     display: flex;

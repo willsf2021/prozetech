@@ -2,19 +2,20 @@ import styled from "styled-components";
 
 export default styled.div`
   display: flex;
-  flex-direction: column;
-  row-gap: 16px;
+  align-items: center;
+  column-gap: 40px;
+
   img {
     height: 85px;
   }
   p {
-    margin-top: 16px;
-    
+    line-height: 1.6rem;
   }
   h3 {
     min-width: 300px;
   }
-  h3, p {
-    max-width: 350px;
+  h3,
+  p {
+    max-width: 400px;
   }
 `;

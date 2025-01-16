@@ -8,6 +8,7 @@ export default styled.header`
   background-repeat: no-repeat;
   background-attachment: fixed;
   padding: 0px 160px;
+
   nav {
     display: flex;
     align-items: center;

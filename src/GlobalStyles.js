@@ -1,18 +1,19 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
+    html {
+      scroll-behavior: smooth;
+    }
     * {
         margin: 0;
         padding:0;
         box-sizing: border-box;
     }
-
     body {
         color: ${({ theme }) => theme.colors.snow};
         background-color: ${({ theme }) => theme.colors.veryDarkBlue};
         /* max-width: 1440px; */
         margin: auto;
-        
     }
 
     div#root {
@@ -20,9 +21,13 @@ const GlobalStyles = createGlobalStyle`
         flex-direction: column;
         row-gap: 96px;
     }
-    /* h2 {
-        font: 600
-    } */
+
+    div.wrap {
+    max-width: 1440px;
+    margin: auto;
+    padding: 0px 80px;
+  }
+    
     
   a {
     color: inherit;
@@ -48,6 +53,10 @@ const GlobalStyles = createGlobalStyle`
   button {
         font-family: ${({ theme }) => theme.fontFamily.poppins};
         font-size: ${({ theme }) => theme.fontSize.sm};
+        transition: transform 0.3s ease-in-out;
+        &:hover {
+        transform: scale(1.08);
+      }
       }
   ul {
         list-style: none;
