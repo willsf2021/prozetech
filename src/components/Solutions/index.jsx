@@ -28,7 +28,7 @@ export const Solutions = () => {
         </div>
         <div className="rightSide">
           <div>
-            <img src={img2} alt="Ilustração" />
+            <img src={img2} className="img2" alt="Ilustração" />
           </div>
           <img
             className="rectangleBottom"

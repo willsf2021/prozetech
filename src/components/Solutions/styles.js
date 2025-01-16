@@ -39,6 +39,16 @@ export default styled.section`
     margin-top: 112px;
   }
 
+  .img1,
+  .img2 {
+    transition: all 300ms ease-in-out;
+  }
+
+  .img1:hover,
+  .img2:hover {
+    transform: scale(1.01);
+    border-radius: 16px;
+  }
   div.rightSide {
     display: flex;
     flex-direction: column;
