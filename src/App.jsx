@@ -22,6 +22,7 @@ function App() {
       <Services />
       <Hr />
       <Solutions />
+      <Hr />
       <Contact/>
       <Footer />
       <WhatsappButton />

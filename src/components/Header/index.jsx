@@ -21,7 +21,7 @@ export const Header = () => {
               <a href="#work">Trabalho</a>
             </li>
             <li>
-              <a href="">Contato</a>
+              <a href="#contacts">Contatos</a>
             </li>
           </ul>
           <div className="mobileMenu">

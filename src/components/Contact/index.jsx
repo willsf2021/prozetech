@@ -7,9 +7,10 @@ import logo from "../../assets/logo.png"
 
 export const Contact = () => {
     return (
-        <Container>
+        <Container id="contacts">
             <div className="wrap">
                 <h2>Contatos</h2>
+                <div className="div">
                 <div className="containerContacts">
                     <div className="contactItem">
                     <a href="https://www.instagram.com/prozetech/" target="_blank"><img src={instagramIcon} alt="" /><p>@prozetech</p></a>
@@ -29,6 +30,7 @@ export const Contact = () => {
                 </div>
                 <div className="imgLogo">
                     <img src={logo} alt="" />
+                </div>
                 </div>
             </div>
         </Container>
