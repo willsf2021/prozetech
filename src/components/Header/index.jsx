@@ -38,7 +38,7 @@ export const Header = () => {
               <strong> Assistência Técnica </strong>e montagem de
               <strong> PCs Gamers </strong>sob medida.
             </h3>
-            <button>
+            <button className="contact">
               <span>
                 Entre <span>em</span> c
               </span>

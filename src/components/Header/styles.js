@@ -39,7 +39,10 @@ export default styled.header`
   }
   div.hero {
     button span {
-      border-bottom: 1px solid ${({ theme }) => theme.colors.snow};
+      border-bottom: 1px solid ${({ theme }) => theme.colors.lightBlue};
+    }
+    button.contact {
+      color: ${({ theme }) => theme.colors.lightBlue};
     }
     aside {
       margin-top: 54px;

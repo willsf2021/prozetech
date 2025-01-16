@@ -12,7 +12,6 @@ const GlobalStyles = createGlobalStyle`
     body {
         color: ${({ theme }) => theme.colors.snow};
         background-color: ${({ theme }) => theme.colors.veryDarkBlue};
-        /* max-width: 1440px; */
         margin: auto;
     }
 
