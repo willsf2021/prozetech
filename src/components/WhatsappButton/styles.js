@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export default styled.a`
   position: fixed;
-  bottom: 80px;
+  bottom:160px;
   right: 160px;
   font-size: 64px;
   color: white;
