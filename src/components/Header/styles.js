@@ -7,7 +7,7 @@ export default styled.header`
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding: 0px 160px;
+  padding: 0px 80px;
 
   nav {
     display: flex;
