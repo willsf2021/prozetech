@@ -49,5 +49,11 @@ export default styled.footer`
     align-items: center;
     justify-content: center;
     background-color: ${({ theme }) => theme.colors.snow};
+
+    img:hover {
+      cursor: pointer;
+      transform: scale(1.15);
+      transition: transform 0.3s ease-in-out;
+    }
   }
 `;

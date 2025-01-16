@@ -61,6 +61,14 @@ const GlobalStyles = createGlobalStyle`
         list-style: none;
         
   }
+  li {
+    transition: all 0.3s ease-in-out;
+    &:hover {
+          cursor: pointer;
+          
+          color: ${({ theme }) => theme.colors.footerBorderColor};
+      }
+  }
     button {
         background-color: transparent;
         color: ${({ theme }) => theme.colors.snow};
