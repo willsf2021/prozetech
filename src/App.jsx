@@ -9,6 +9,7 @@ import { Intro } from "./components/Intro";
 import { Footer } from "./components/Footer";
 import { WhatsappButton } from "./components/WhatsappButton";
 import { Solutions } from "./components/Solutions";
+import { Contact } from "./components/Contact";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -21,6 +22,7 @@ function App() {
       <Services />
       <Hr />
       <Solutions />
+      <Contact/>
       <Footer />
       <WhatsappButton />
     </ThemeProvider>
