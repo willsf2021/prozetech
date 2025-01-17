@@ -128,7 +128,7 @@ Error generating stack: `+s.message+`
   background: url(${Fy});
   background-size: cover;
   background-repeat: no-repeat;
-
+background-attachment: fixed;
   nav {
     display: flex;
     align-items: center;
