@@ -20,7 +20,7 @@ div.containerContacts {
     display: flex;
     flex-direction: column;
     row-gap: 16px;
-    padding-top: 78px;
+    padding-top: 48px;
 }
 div.contactItem {
     

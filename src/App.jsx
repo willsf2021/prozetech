@@ -10,6 +10,7 @@ import { Footer } from "./components/Footer";
 import { WhatsappButton } from "./components/WhatsappButton";
 import { Solutions } from "./components/Solutions";
 import { Contact } from "./components/Contact";
+import { About } from "./components/About";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -23,7 +24,9 @@ function App() {
       <Hr />
       <Solutions />
       <Hr />
-      <Contact/>
+      <About />
+      <Hr />
+      <Contact />
       <Footer />
       <WhatsappButton />
     </ThemeProvider>

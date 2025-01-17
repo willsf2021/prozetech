@@ -12,13 +12,13 @@ export const Header = () => {
           </div>
           <ul>
             <li>
-              <a href="">Sobre</a>
-            </li>
-            <li>
               <a href="#services">Serviços</a>
             </li>
             <li>
               <a href="#work">Trabalho</a>
+            </li>
+            <li>
+              <a href="#about">Sobre</a>
             </li>
             <li>
               <a href="#contacts">Contatos</a>
