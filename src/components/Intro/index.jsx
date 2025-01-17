@@ -25,7 +25,9 @@ export const Intro = () => {
               durabilidade dos componentes.
             </p>
             <button>
-              <span>Sobre Nó</span>s
+              <a href="#about">
+                <span>Sobre Nó</span>s
+              </a>
             </button>
           </div>
         </div>
